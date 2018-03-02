@@ -1,4 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Auto" representedClassName="Auto" syncable="YES" codeGenerationType="class">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imagen" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="kmRecorri" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="marca" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modelo" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nMotor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nPuertas" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nSerie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="precio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="peretenece" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Duenio" inverseName="esPropietario" inverseEntity="Duenio" syncable="YES"/>
+    </entity>
+    <entity name="Duenio" representedClassName="Duenio" syncable="YES" codeGenerationType="class">
+        <attribute name="apeMat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="apePat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="correo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="curp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foto" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="idPropier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitud" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitud" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sexo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telefono" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="esPropietario" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Auto" inverseName="peretenece" inverseEntity="Auto" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Auto" positionX="279" positionY="-36" width="128" height="210"/>
+        <element name="Duenio" positionX="-63" positionY="-126" width="128" height="240"/>
+    </elements>
 </model>

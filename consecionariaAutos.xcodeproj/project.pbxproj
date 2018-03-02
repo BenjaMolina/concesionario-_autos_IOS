@@ -9,12 +9,27 @@
 /* Begin PBXBuildFile section */
 		43014F991EDF21CF00C22F08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43014F981EDF21CF00C22F08 /* AppDelegate.swift */; };
 		43014F9B1EDF21CF00C22F08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43014F9A1EDF21CF00C22F08 /* ViewController.swift */; };
-		43014F9E1EDF21CF00C22F08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43014F9C1EDF21CF00C22F08 /* Main.storyboard */; };
 		43014FA11EDF21CF00C22F08 /* consecionariaAutos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43014F9F1EDF21CF00C22F08 /* consecionariaAutos.xcdatamodeld */; };
 		43014FA31EDF21CF00C22F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43014FA21EDF21CF00C22F08 /* Assets.xcassets */; };
 		43014FA61EDF21CF00C22F08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43014FA41EDF21CF00C22F08 /* LaunchScreen.storyboard */; };
 		43014FB11EDF21CF00C22F08 /* consecionariaAutosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43014FB01EDF21CF00C22F08 /* consecionariaAutosTests.swift */; };
 		43014FBC1EDF21CF00C22F08 /* consecionariaAutosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43014FBB1EDF21CF00C22F08 /* consecionariaAutosUITests.swift */; };
+		430B6ADA1EE1918400638C78 /* EditMapaDireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B6AD91EE1918400638C78 /* EditMapaDireViewController.swift */; };
+		431AC0301EDFAAC3004786E9 /* AgregarPropietario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431AC02F1EDFAAC3004786E9 /* AgregarPropietario.swift */; };
+		431AC0321EDFBBFA004786E9 /* ListaPropierTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431AC0311EDFBBFA004786E9 /* ListaPropierTableViewCell.swift */; };
+		4374F5E41EDF9648003BD90F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4374F5E21EDF9648003BD90F /* Main.storyboard */; };
+		438958621EE080A100C84061 /* EditarPropietarioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438958611EE080A100C84061 /* EditarPropietarioTableViewController.swift */; };
+		438FF4191EDF7A0100C8362F /* ListaPropietario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438FF4181EDF7A0100C8362F /* ListaPropietario.swift */; };
+		43921AF61EE227A200D26BEF /* AgregarAutoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43921AF51EE227A100D26BEF /* AgregarAutoTableViewController.swift */; };
+		43921AF81EE228B000D26BEF /* ListaAautos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43921AF71EE228B000D26BEF /* ListaAautos.swift */; };
+		43921AFA1EE2345200D26BEF /* AutosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43921AF91EE2345200D26BEF /* AutosTableViewCell.swift */; };
+		43941FA21EE112A400452608 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43941FA11EE112A400452608 /* MapKit.framework */; };
+		43941FA41EE115F200452608 /* MapaDireccionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43941FA31EE115F200452608 /* MapaDireccionViewController.swift */; };
+		43A4C4BA1EE369C20047573E /* ListaBusquedaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4C4B91EE369C20047573E /* ListaBusquedaTableViewCell.swift */; };
+		43A4C4BC1EE369EA0047573E /* ListaBusqTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4C4BB1EE369EA0047573E /* ListaBusqTableViewController.swift */; };
+		43A4C4BE1EE36D410047573E /* ConsultasBD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4C4BD1EE36D410047573E /* ConsultasBD.swift */; };
+		43A4C4C11EE3864C0047573E /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4C4C01EE3864C0047573E /* CollectionViewController.swift */; };
+		43A4C4C31EE38CF50047573E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4C4C21EE38CF50047573E /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +53,6 @@
 		43014F951EDF21CF00C22F08 /* consecionariaAutos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = consecionariaAutos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43014F981EDF21CF00C22F08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43014F9A1EDF21CF00C22F08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		43014F9D1EDF21CF00C22F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43014FA01EDF21CF00C22F08 /* consecionariaAutos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = consecionariaAutos.xcdatamodel; sourceTree = "<group>"; };
 		43014FA21EDF21CF00C22F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43014FA51EDF21CF00C22F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +63,22 @@
 		43014FB71EDF21CF00C22F08 /* consecionariaAutosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = consecionariaAutosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43014FBB1EDF21CF00C22F08 /* consecionariaAutosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consecionariaAutosUITests.swift; sourceTree = "<group>"; };
 		43014FBD1EDF21CF00C22F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		430B6AD91EE1918400638C78 /* EditMapaDireViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMapaDireViewController.swift; sourceTree = "<group>"; };
+		431AC02F1EDFAAC3004786E9 /* AgregarPropietario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgregarPropietario.swift; sourceTree = "<group>"; };
+		431AC0311EDFBBFA004786E9 /* ListaPropierTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaPropierTableViewCell.swift; sourceTree = "<group>"; };
+		4374F5E31EDF9648003BD90F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		438958611EE080A100C84061 /* EditarPropietarioTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditarPropietarioTableViewController.swift; sourceTree = "<group>"; };
+		438FF4181EDF7A0100C8362F /* ListaPropietario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaPropietario.swift; sourceTree = "<group>"; };
+		43921AF51EE227A100D26BEF /* AgregarAutoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgregarAutoTableViewController.swift; sourceTree = "<group>"; };
+		43921AF71EE228B000D26BEF /* ListaAautos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaAautos.swift; sourceTree = "<group>"; };
+		43921AF91EE2345200D26BEF /* AutosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutosTableViewCell.swift; sourceTree = "<group>"; };
+		43941FA11EE112A400452608 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		43941FA31EE115F200452608 /* MapaDireccionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapaDireccionViewController.swift; sourceTree = "<group>"; };
+		43A4C4B91EE369C20047573E /* ListaBusquedaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaBusquedaTableViewCell.swift; sourceTree = "<group>"; };
+		43A4C4BB1EE369EA0047573E /* ListaBusqTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaBusqTableViewController.swift; sourceTree = "<group>"; };
+		43A4C4BD1EE36D410047573E /* ConsultasBD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultasBD.swift; sourceTree = "<group>"; };
+		43A4C4C01EE3864C0047573E /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		43A4C4C21EE38CF50047573E /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43941FA21EE112A400452608 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +114,7 @@
 				43014FAF1EDF21CF00C22F08 /* consecionariaAutosTests */,
 				43014FBA1EDF21CF00C22F08 /* consecionariaAutosUITests */,
 				43014F961EDF21CF00C22F08 /* Products */,
+				43941FA01EE112A300452608 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +131,13 @@
 		43014F971EDF21CF00C22F08 /* consecionariaAutos */ = {
 			isa = PBXGroup;
 			children = (
+				43A4C4BD1EE36D410047573E /* ConsultasBD.swift */,
 				43014F981EDF21CF00C22F08 /* AppDelegate.swift */,
 				43014F9A1EDF21CF00C22F08 /* ViewController.swift */,
-				43014F9C1EDF21CF00C22F08 /* Main.storyboard */,
+				43A4C4BF1EE3861B0047573E /* ViewCollection */,
+				4389585E1EE0779900C84061 /* TableViewControlers */,
+				43921AFB1EE2749400D26BEF /* TableViewCell */,
+				4374F5E21EDF9648003BD90F /* Main.storyboard */,
 				43014FA21EDF21CF00C22F08 /* Assets.xcassets */,
 				43014FA41EDF21CF00C22F08 /* LaunchScreen.storyboard */,
 				43014FA71EDF21CF00C22F08 /* Info.plist */,
@@ -126,6 +162,48 @@
 				43014FBD1EDF21CF00C22F08 /* Info.plist */,
 			);
 			path = consecionariaAutosUITests;
+			sourceTree = "<group>";
+		};
+		4389585E1EE0779900C84061 /* TableViewControlers */ = {
+			isa = PBXGroup;
+			children = (
+				431AC02F1EDFAAC3004786E9 /* AgregarPropietario.swift */,
+				438FF4181EDF7A0100C8362F /* ListaPropietario.swift */,
+				438958611EE080A100C84061 /* EditarPropietarioTableViewController.swift */,
+				43941FA31EE115F200452608 /* MapaDireccionViewController.swift */,
+				430B6AD91EE1918400638C78 /* EditMapaDireViewController.swift */,
+				43921AF51EE227A100D26BEF /* AgregarAutoTableViewController.swift */,
+				43921AF71EE228B000D26BEF /* ListaAautos.swift */,
+				43A4C4BB1EE369EA0047573E /* ListaBusqTableViewController.swift */,
+			);
+			name = TableViewControlers;
+			sourceTree = "<group>";
+		};
+		43921AFB1EE2749400D26BEF /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				431AC0311EDFBBFA004786E9 /* ListaPropierTableViewCell.swift */,
+				43921AF91EE2345200D26BEF /* AutosTableViewCell.swift */,
+				43A4C4B91EE369C20047573E /* ListaBusquedaTableViewCell.swift */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		43941FA01EE112A300452608 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43941FA11EE112A400452608 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43A4C4BF1EE3861B0047573E /* ViewCollection */ = {
+			isa = PBXGroup;
+			children = (
+				43A4C4C01EE3864C0047573E /* CollectionViewController.swift */,
+				43A4C4C21EE38CF50047573E /* CollectionViewCell.swift */,
+			);
+			name = ViewCollection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +274,6 @@
 				TargetAttributes = {
 					43014F941EDF21CF00C22F08 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = F29DH93Y7N;
 						ProvisioningStyle = Automatic;
 					};
 					43014FAB1EDF21CF00C22F08 = {
@@ -238,9 +315,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4374F5E41EDF9648003BD90F /* Main.storyboard in Resources */,
 				43014FA61EDF21CF00C22F08 /* LaunchScreen.storyboard in Resources */,
 				43014FA31EDF21CF00C22F08 /* Assets.xcassets in Resources */,
-				43014F9E1EDF21CF00C22F08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +344,21 @@
 			files = (
 				43014F9B1EDF21CF00C22F08 /* ViewController.swift in Sources */,
 				43014FA11EDF21CF00C22F08 /* consecionariaAutos.xcdatamodeld in Sources */,
+				43A4C4C31EE38CF50047573E /* CollectionViewCell.swift in Sources */,
+				438FF4191EDF7A0100C8362F /* ListaPropietario.swift in Sources */,
+				43921AF81EE228B000D26BEF /* ListaAautos.swift in Sources */,
+				43A4C4C11EE3864C0047573E /* CollectionViewController.swift in Sources */,
+				43A4C4BE1EE36D410047573E /* ConsultasBD.swift in Sources */,
+				43A4C4BA1EE369C20047573E /* ListaBusquedaTableViewCell.swift in Sources */,
 				43014F991EDF21CF00C22F08 /* AppDelegate.swift in Sources */,
+				430B6ADA1EE1918400638C78 /* EditMapaDireViewController.swift in Sources */,
+				431AC0301EDFAAC3004786E9 /* AgregarPropietario.swift in Sources */,
+				431AC0321EDFBBFA004786E9 /* ListaPropierTableViewCell.swift in Sources */,
+				43941FA41EE115F200452608 /* MapaDireccionViewController.swift in Sources */,
+				43921AF61EE227A200D26BEF /* AgregarAutoTableViewController.swift in Sources */,
+				43921AFA1EE2345200D26BEF /* AutosTableViewCell.swift in Sources */,
+				43A4C4BC1EE369EA0047573E /* ListaBusqTableViewController.swift in Sources */,
+				438958621EE080A100C84061 /* EditarPropietarioTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,20 +394,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		43014F9C1EDF21CF00C22F08 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				43014F9D1EDF21CF00C22F08 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		43014FA41EDF21CF00C22F08 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				43014FA51EDF21CF00C22F08 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4374F5E21EDF9648003BD90F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4374F5E31EDF9648003BD90F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -419,7 +510,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = F29DH93Y7N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = consecionariaAutos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = molina.consecionariaAutos;
@@ -432,7 +523,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = F29DH93Y7N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = consecionariaAutos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = molina.consecionariaAutos;
@@ -518,6 +609,7 @@
 				43014FC21EDF21CF00C22F08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43014FC31EDF21CF00C22F08 /* Build configuration list for PBXNativeTarget "consecionariaAutosTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +618,7 @@
 				43014FC51EDF21CF00C22F08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43014FC61EDF21CF00C22F08 /* Build configuration list for PBXNativeTarget "consecionariaAutosUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +627,7 @@
 				43014FC81EDF21CF00C22F08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
